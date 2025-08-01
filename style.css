@@ -1,0 +1,28 @@
+@import url(https://fonts.google.com/specimen/Chocolate+Classical+Sans);
+
+/*variáveis*/
+:root {
+--primary-color: #026773;
+--secundary-color: blue;
+--text-color: #024959;
+--backgroud-color: white;
+--button-hover: rgb(2, 2, 73);
+--font-body: "Chocolate Classical Sans", Serif;
+--font-titulo: "Rakkas", Serif;
+}
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/*corpo da pagina*/
+body{
+    background-color: var(--backgroud-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
